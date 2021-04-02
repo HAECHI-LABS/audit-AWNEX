@@ -15,7 +15,7 @@ contract AWNEX is
     string constant private _name = "AWNEX";
     string constant private _symbol = "AWNEX";
     uint8 constant private _decimals = 18;
-    uint256 constant private _initial_supply = 10_000_000_000;
+    uint256 constant private _initial_supply = 1_000_000_000;
 
     constructor() Ownable() {
         _mint(msg.sender, _initial_supply * (10**uint256(_decimals)));
